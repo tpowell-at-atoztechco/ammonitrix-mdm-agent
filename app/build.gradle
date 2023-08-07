@@ -9,7 +9,7 @@ android {
     compileSdkVersion 28
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId 'org.flyve.mdm.agent'
+        applicationId 'ammonitrix.mdm.agent'
         minSdkVersion 16
         targetSdkVersion 28
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
