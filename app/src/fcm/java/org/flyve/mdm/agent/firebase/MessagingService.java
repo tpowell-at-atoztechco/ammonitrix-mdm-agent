@@ -1,24 +1,13 @@
 package org.flyve.mdm.agent.firebase;
 
-import android.app.NotificationManager;
-import android.app.PendingIntent;
-import android.content.Context;
-import android.content.Intent;
-import android.graphics.BitmapFactory;
-import android.media.RingtoneManager;
-import android.net.Uri;
-import android.os.Build;
 import android.os.SystemClock;
-import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
 import org.flyve.mdm.agent.MessagePolicies;
-import org.flyve.mdm.agent.R;
 import org.flyve.mdm.agent.ui.MDMAgent;
-import org.flyve.mdm.agent.ui.PushPoliciesActivity;
 import org.flyve.mdm.agent.utils.FlyveLog;
 import org.flyve.mdm.agent.utils.Helpers;
 

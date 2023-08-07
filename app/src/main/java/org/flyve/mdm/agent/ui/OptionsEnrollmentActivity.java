@@ -14,7 +14,6 @@ import android.widget.Switch;
 import android.widget.TableRow;
 
 import org.flyve.mdm.agent.R;
-import org.flyve.mdm.agent.utils.FlyveLog;
 
 public class OptionsEnrollmentActivity extends Activity {
 

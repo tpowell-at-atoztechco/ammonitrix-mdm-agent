@@ -25,8 +25,6 @@ package org.flyve.mdm.agent.data.localstorage;
 
 import android.content.Context;
 
-import org.flyve.mdm.agent.data.localstorage.LocalStorage;
-
 public class SupervisorData extends LocalStorage {
 
     private static String local = "FlyveMDMSupervisorObject_";

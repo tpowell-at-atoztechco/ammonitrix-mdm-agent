@@ -61,7 +61,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
-        android:name=".ui.MDMAgent"
+        android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.MDMAgent"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -71,7 +71,7 @@
         <receiver
             android:enabled="true"
             android:exported="true"
-            android:name=".service.RunOnStartup"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.service.RunOnStartup"
             android:permission="android.permission.RECEIVE_BOOT_COMPLETED">
 
             <intent-filter>
@@ -82,7 +82,7 @@
 
         </receiver>
 
-        <receiver android:name=".receivers.AppReceiver">
+        <receiver android:name="org.flyve.mdm.ammonitrix.mdm.agent.receivers.AppReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_INSTALL" />
                 <action android:name="android.intent.action.PACKAGE_ADDED" />
@@ -111,30 +111,30 @@
             android:resource="@color/colorAccent" />
 
         <activity
-            android:name=".ui.InstallAppActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.InstallAppActivity"
             android:launchMode="singleTask"></activity>
         <activity
-            android:name=".ui.UninstallAppActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.UninstallAppActivity"
             android:launchMode="singleTask"></activity>
         <activity
-            android:name=".ui.OptionsEnrollmentActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.OptionsEnrollmentActivity"
             android:launchMode="singleTask"></activity>
         <activity
-            android:name=".ui.ScanActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.ScanActivity"
             android:launchMode="singleInstance"
             android:screenOrientation="landscape"></activity>
         <activity
-            android:name=".ui.LockActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.LockActivity"
             android:label="@string/app_name"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"></activity>
         <activity
-            android:name=".ui.PermissionEnrollmentActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.PermissionEnrollmentActivity"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTask"
             android:theme="@style/NoActionBar"></activity>
         <activity
-            android:name=".ui.SplashActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.SplashActivity"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTask"
             android:theme="@style/NoActionBar">
@@ -145,7 +145,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.MainActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.MainActivity"
             android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
@@ -159,25 +159,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ui.EnrollmentActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.EnrollmentActivity"
             android:configChanges="orientation|screenSize"></activity>
         <activity
-            android:name=".ui.EditUserActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.EditUserActivity"
             android:configChanges="orientation|screenSize"></activity>
         <activity
-            android:name=".ui.ErrorActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.ErrorActivity"
             android:configChanges="orientation|screenSize"></activity>
         <activity
-            android:name=".ui.PreviewSupervisorActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.PreviewSupervisorActivity"
             android:configChanges="orientation|screenSize"></activity>
         <activity
-            android:name=".ui.DisclosureActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.DisclosureActivity"
             android:configChanges="orientation|screenSize"></activity>
         <activity
-            android:name=".ui.PreviewUserActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.PreviewUserActivity"
             android:configChanges="orientation|screenSize"></activity>
         <activity
-            android:name=".ui.StartEnrollmentActivity"
+            android:name="org.flyve.mdm.ammonitrix.mdm.agent.ui.StartEnrollmentActivity"
             android:configChanges="orientation|screenSize"
             android:launchMode="singleTask">
             <intent-filter>

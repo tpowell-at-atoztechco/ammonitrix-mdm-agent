@@ -11,9 +11,9 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/flyve-mdm/android-mdm-agent.svg)](https://greenkeeper.io/)
 [![GitHub release](https://img.shields.io/github/release/flyve-mdm/android-mdm-agent.svg)](https://github.com/flyve-mdm/android-mdm-agent/releases)
 
-Flyve MDM is a Mobile device management software that enables you to secure and manage all the mobile devices of your business or family via a web-based console.
+The new Ammonitrix MDM Client (code was defunct when I began modifying from Flyve MDM Agent for Android) will auto-enroll devices into the Ammonitrix environment.
 
-To get started, check out [Flyve MDM Website](https://flyve-mdm.com/)!
+Check out the [Ammonitrix Website](https://ammonitrix.com/?from=android-mdm-agent)!
 
 ## Table of contents
 
@@ -30,17 +30,19 @@ To get started, check out [Flyve MDM Website](https://flyve-mdm.com/)!
 
 ## Synopsis
 
-The Android Agent will manage all your mobile devices effectively, including a range of powerful security features to protect sensitive company data stored on mobile devices, allowing you to manage your mobile fleet security policy with precision.
+The Android Agent will manage all your Android mobile devices from the lowest level, including a range of powerful security features to protect sensitive data stored on mobile devices, allowing you to manage your mobile fleet security policy with accuracy and precision.
 
-The Android Agent will help you to:
+The Ammonitrix MDM Agent for Android will help you to:
 
-* Configure and deploy your mobile fleet from the web-based administration console
+* Install Ammonitrix configurations on a target Android device
+* Configure and deploy your mobile fleet on our web-based console into your secure Ammonitrix account
 * Install and uninstall remote applications
-* Send files remotely to all terminals
+* Send files remotely to all devices
+* Force the Android device to use our VPN and Proxy services (to monitor device traffic)
 * Deploy and control Bluetooth and Wi-Fi connectivity
-* Activate real-time geolocation of your terminals
-* Delete, partially or totally, your data in case of loss or theft
-* Create an inventory of all of your company terminals
+* Activate real-time geolocation services of your devices
+* Delete, partially or totally, your data, in case of loss or theft
+* Automatically inventory your entire fleet of Android devices
 * Keep control and protect yourself from cyber-attacks:
   * Set the level of complexity of your passwords
   * Activate mobile device encryption
@@ -48,13 +50,13 @@ The Android Agent will help you to:
   * Control the authorisation for the use of the camera
   * Erase all data from the remote terminal (reset)
 
-For more information visit our [Official Website](http://flyve.org/android-mdm-agent/).
+For more information visit our [Ammonitrix Official Website](http://ammonitrix.com/features#android/).
 
 ## Build Status
 
-| **LTS** | **Bleeding Edge** |
-|:---:|:---:|
-| [![Build Status](https://circleci.com/gh/flyve-mdm/android-mdm-agent/tree/master.svg?style=svg)](https://circleci.com/gh/flyve-mdm/android-mdm-agent/tree/master) | [![Build Status](https://circleci.com/gh/flyve-mdm/android-mdm-agent/tree/develop.svg?style=svg)](https://circleci.com/gh/flyve-mdm/android-mdm-agent/tree/develop) |
+|                                                                       **LTS**                                                                       |                                                                   **Bleeding Edge**                                                                   |
+|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+| [![Build Status](https://dev.ammonitrix.com/android-mdm-agent/tree/master.svg?style=svg)](https://dev.ammonitrix.com/android-mdm-agent/tree/master) | [![Build Status](https://dev.ammonitrix.com/android-mdm-agent/tree/develop.svg?style=svg)](https://dev.ammonitrix.com/android-mdm-agent/tree/develop) |
 
 ## Compatibility Matrix
 
@@ -84,15 +86,11 @@ For more information visit our [Official Website](http://flyve.org/android-mdm-a
 
 ## Installation
 
-[<img src="https://user-images.githubusercontent.com/663460/26973322-4ddf78a4-4d16-11e7-8b58-4c03b4bc2490.png" alt="Get it on Google Play" height="60">](https://play.google.com/store/apps/details?id=org.flyve.mdm.agent) [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/packages/org.flyve.mdm.agent.mqtt/) [<img src="https://user-images.githubusercontent.com/663460/26973090-f8fdc986-4d14-11e7-995a-e7c5e79ed925.png" alt="Download APK from GitHub" height="60">](https://github.com/flyve-mdm/android-mdm-agent/releases/latest)
+[<img src="https://user-images.githubusercontent.com/663460/26973322-4ddf78a4-4d16-11e7-8b58-4c03b4bc2490.png" alt="Get it on Google Play" height="60">](https://play.google.com/store/apps/details?id=org.flyve.mdm.agent) [<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="60">](https://f-droid.org/packages/org.flyve.mdm.agent.mqtt/) [<img src="https://user-images.githubusercontent.com/663460/26973090-f8fdc986-4d14-11e7-995a-e7c5e79ed925.png" alt="Download APK from GitHub" height="60">](https://github.com/tpowell-at-atoztechco/ammonitrix-mdm-agent/releases/latest)
 
 ### As System App
 
-Follow the steps in this article to learn [How to Install as System App](http://flyve.org/android-mdm-agent/howtos/installation).
-
-### Beta Testing App
-
-* Install the [Beta version of the app](https://play.google.com/apps/testing/org.flyve.mdm.agent)
+Follow the steps in this article to learn [How to Install from the Google Play Store](http://ammonitrix.com/support/android-installation).
 
 ## Documentation
 
@@ -111,9 +109,7 @@ You can also chat with us via IRC in [#flyve-mdm on freenode](http://webchat.fre
 
 ## Professional Services
 
-The Flyve MDM and GLPI Network services are available through our [Partner's Network](http://www.teclib-edition.com/en/partners/). We provide special training, bug fixes with editor subscription, contributions for new features, and more.
-
-Obtain a personalized service experience, associated with benefits and opportunities.
+[Ammonitrix](https://ammonitrix.com/?from=ammonitrix-mdm-agent) maintains a working platform, and is publishing this app as open source, but has closed it to only work with our services.
 
 ## Contribute
 
@@ -122,5 +118,6 @@ Want to file a bug, contribute some code, or improve documentation? Excellent! R
 ## Copying
 
 * **Name**: [Flyve MDM](https://flyve-mdm.com/) is a registered trademark of [Teclib'](http://www.teclib-edition.com/en/).
-* **Code**: you can redistribute it and/or modify it under the terms of the GNU General Public License ([GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)).
+* **Name**: [Ammonitrix](https://ammonitrix.com/) is a registered trademark of [Ammonitrix, Inc](https://ammonitrix.com/legal/trade#Ammonitrix)
+* **Code**: you can redistribute it and/or modify it under the original terms of the Flyve's GNU General Public License ([GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)).
 * **Documentation**: released under Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).

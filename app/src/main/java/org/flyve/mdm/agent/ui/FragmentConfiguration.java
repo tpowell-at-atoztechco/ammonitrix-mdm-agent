@@ -42,9 +42,6 @@ import org.flyve.mdm.agent.R;
 import org.flyve.mdm.agent.data.localstorage.AppData;
 import org.flyve.mdm.agent.data.localstorage.LocalStorage;
 import org.flyve.mdm.agent.data.database.MqttData;
-import org.flyve.mdm.agent.utils.FlyveLog;
-
-import static org.flyve.mdm.agent.ui.OptionsEnrollmentActivity.REQUEST_DRAWOVERLAY_CODE;
 
 public class FragmentConfiguration extends Fragment {
 

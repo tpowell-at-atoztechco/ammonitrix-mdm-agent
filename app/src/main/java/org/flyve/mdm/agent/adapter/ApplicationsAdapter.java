@@ -43,11 +43,8 @@ import org.flyve.mdm.agent.R;
 import org.flyve.mdm.agent.data.database.PoliciesData;
 import org.flyve.mdm.agent.data.database.entity.Application;
 import org.flyve.mdm.agent.data.database.entity.Policies;
-import org.flyve.mdm.agent.ui.FragmentPolicies;
 import org.flyve.mdm.agent.utils.FlyveLog;
 import org.flyve.mdm.agent.utils.Helpers;
-
-import java.util.List;
 
 public class ApplicationsAdapter extends BaseAdapter {
 
